@@ -1,7 +1,0 @@
-# do not track compiled python files
-__pycache__/
-flask-app/*.pyc
-
-# do not track the virtual environment
-.venv/
-flask-app/.venv/
