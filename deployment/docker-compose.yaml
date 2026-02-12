@@ -2,7 +2,7 @@ version: '3'
 services:
   flask:
     container_name: flask
-    image: arynxd/uws-coursework:v0.1
+    image: "arynxd/uws-coursework:f65306169cf27f73f65676c259ccf4035a82b985-b42"
     restart: unless-stopped
     networks:
       - app
