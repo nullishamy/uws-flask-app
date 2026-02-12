@@ -29,6 +29,10 @@ def test_pounds_to_kg():
     # if this test fails, the function pounds_to_kg is incorrect
     assert pytest.approx(pounds_to_kg(2.20462), rel=1e-5) == 1
 
+def test_pounds_to_kg_is_positive():
+    # test that 1 pound to kg returns a positive value
+    assert pounds_to_kg(1) > 0
+
 def test_grams_to_pounds():
     # test that 1000 grams is equal to 2.20462 pounds
     # if this test fails, the function grams_to_pounds is incorrect
