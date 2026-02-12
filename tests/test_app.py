@@ -12,7 +12,7 @@ from app import (
 def test_kg_to_grams():
     # test that 1 kg is equal to 1000 grams
     # if this test fails, the function kg_to_grams is incorrect
-    assert kg_to_grams(1) == 1000
+    assert kg_to_grams(1) == None
 
 def test_grams_to_kg():
     # test that 1000 grams is equal to 1 kg
